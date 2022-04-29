@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반응형헤더</title>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+
+<body>
+ <header>
+     <h1>
+        <a href="#">
+          <img src="images/microsoft.png" alt="로고"/>
+        </a>
+     </h1>
+     <nav class="pc">
+        <ul>
+          <li><a href="#">Microsoft 365</a></li>
+          <li><a href="#">Office</a></li>
+          <li><a href="#">Windows</a></li>
+          <li><a href="#">Surface</a></li>
+          <li><a href="#">지원</a></li>
+        </ul> 
+     </nav><!-- .pc end -->
+
+     <!-- 모바일에서는 메뉴보기를 눌러야 네비게이션이 뜨도록 만듦
+        아무것도 안써두면 접근성에 문제 발생-->
+     <i class="xi-bars"><span>메뉴보기</span></i>
+    <!-- 모바일 네비게이션 -->
+     <nav class="m_nav">
+        <ul>
+          <li><a href="#">조형대학소개</a></li>
+          <li><a href="#">디자인컨버전스학부</a></li>
+          <li><a href="#">영상애니메이션학부</a></li>
+          <li><a href="#">조형대학소개</a></li>
+          <li><a href="#">조형대학소개</a></li>
+        </ul> 
+     </nav><!-- .m_nav end -->
+ </header>
+ <section class="main_visual">
+    <img src="images/tablet-843798_1920.jpg"alt="반려견과 주인"/>
+    <div>
+        <h2>main visual title</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+ </section><!-- .main_visual end -->
+
+ <section class="map">
+    <div class="cont">
+       <div>
+         <h4>한국마이크로소프트 본사</h4>
+         <p>서울특별시 종로구 중학동 종로1길 50</p>
+         <dl>
+            <dt>Tel.</dt>
+            <dd><a href="tel:010-5846-5315">010.5846.5315</a></dd>
+            <dt>Fax.</dt>
+            <dd><a href="fax:051-123-4567">051-123-4567</a></dd>
+         </dl>
+       </div>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3787.699562736923!2d126.97578451566761!3d37.57511430765754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca413fe38a245%3A0x7298d506cd4d6f1d!2z7ZWc6rWt66eI7J207YGs66Gc7IaM7ZSE7Yq4IOuzuOyCrA!5e0!3m2!1sko!2skr!4v1651227775879!5m2!1sko!2skr" width="1280" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><!-- .cont end -->
+ </section><!-- .map end -->
+</body>
+
+</html>
